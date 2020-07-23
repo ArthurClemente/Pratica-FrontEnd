@@ -1,0 +1,28 @@
+.menu-superior {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    background-color: #3573ba;
+}
+
+.menu-superior ul {
+    display: flex;
+}
+
+.menu-superior a {
+    font-family: 'Montserrat';
+    color: #FFF;
+}
+
+div.pesquisa {
+    display: block;
+    height: 315px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.pesquisa h1{
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+}
