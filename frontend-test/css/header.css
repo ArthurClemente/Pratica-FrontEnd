@@ -1,3 +1,4 @@
+ /* Formatação da área inicial da página */
 .menu-superior {
     display: flex;
     justify-content: center;
@@ -14,15 +15,42 @@
     color: #FFF;
 }
 
+/* Formatação da área de pesquisa */
 div.pesquisa {
     display: block;
     height: 315px;
+    background-image: url(../img/banner/banner.png);
     margin: 0px;
     padding: 0px;
 }
 
+img {
+    display: flex;
+    height: 61px;
+
+}
+
 div.pesquisa h1{
-    font-style: oblique;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 50px;
+    color: #FFF;
+}
+
+div.container {
     display: flex;
     align-items: center;
+}
+
+button.btn {
+    background-color: #FFF;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 0px;
+}
+
+img.botaoPesquisa {
+    height: 32px;
 }
