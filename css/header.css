@@ -16,6 +16,10 @@
 }
 
 /* Formatação da área de pesquisa */
+header {
+    margin-bottom: 100px;
+}
+
 div.pesquisa {
     display: block;
     height: 315px;

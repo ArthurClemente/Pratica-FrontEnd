@@ -1,0 +1,40 @@
+div.box-content { /* área completa das caixas */
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.servico-box { /* caixas de consulta */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 165px;
+    border-radius: 6px;
+    margin: 0px 10px 10px 10px;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0,.3);
+}
+
+a.teste { /* área do link dentro da caixa (img e txt)*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img.consulta { /* imagem de dentro da caixa */
+    height: 52px;
+    width: 60px;
+}
+
+hr {
+    height: 3px;
+    width: 120px;
+	border: 3px solid #094CFA;
+}
+
+
+p.titulo {
+    font-family: 'Montserrat';
+}
