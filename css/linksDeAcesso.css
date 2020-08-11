@@ -3,6 +3,7 @@ div.acesso { /* Dá espaço entre a parte dos links de acesso e as caixas de con
 }
 
 div.acesso h3 { /* Titulo: Links de Acesso */
+    font-family: 'Montserrat';
     margin-bottom:30px;
     text-align: center;
 }

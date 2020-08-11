@@ -1,0 +1,81 @@
+/* Área que contém as redes sociais, o mapa e a avaliação */
+div.width-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+div.contato-titulo h3 {
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div.area-contato {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Área das redes sociais */
+div.social-networks h4 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+}
+
+div.social-networks ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+div.social-networks li {
+    height: 45px;
+    width: 45px;
+    margin: 10px
+}
+
+div.social-networks img {
+    width: 100%;
+}
+
+/* Área do endereço */
+
+div.endereco {
+    margin-left: 235px;
+}
+
+div.endereco h4 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+}
+
+div.endereco iframe {
+    height: 150px;
+    width: 780px;
+}
+
+div.endereco p {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+/* Área da avaliação */
+
+div.avaliacao {
+    text-align: center;
+}
+
+div.avaliacao h4 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+div.avaliacao p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
