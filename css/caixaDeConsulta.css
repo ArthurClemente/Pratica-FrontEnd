@@ -28,13 +28,6 @@ img.consulta { /* imagem de dentro da caixa */
     width: 60px;
 }
 
-hr {
-    height: 3px;
-    width: 120px;
-	border: 3px solid #094CFA;
-}
-
-
 p.titulo {
     font-family: 'Montserrat';
 }

@@ -1,0 +1,20 @@
+footer { /* Área completa do footer */
+    background-color: #3573ba;
+    margin-bottom: 2px;
+}
+
+div.conteudos { /* Div que contém a imagem e o texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.conteudos img { /* Ajusta as dimensões da imagem */
+    height: 40px;
+}
+
+div.conteudos p { /* Altera o texto da tag "p" */
+    font-family: 'Montserrat';
+    color: #FFF;
+    text-align: right;
+}
