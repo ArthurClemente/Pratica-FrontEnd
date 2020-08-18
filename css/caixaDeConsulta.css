@@ -12,11 +12,11 @@ div.servico-box { /* caixas de consulta */
     height: 140px;
     width: 165px;
     border-radius: 6px;
-    margin: 0px 10px 10px 10px;
+    margin: 15px 10px;
     box-shadow: 1px 1px 14px rgba(0, 0, 0,.3);
 }
 
-a.teste { /* área do link dentro da caixa (img e txt)*/
+a.linkBox { /* área do link dentro da caixa (img e txt)*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,6 +28,17 @@ img.consulta { /* imagem de dentro da caixa */
     width: 60px;
 }
 
+hr.borda {
+    margin: 7px 0px 7px 0px;
+    border: 1px solid #3573ba;
+    width: 140px;
+}
+
 p.titulo {
     font-family: 'Montserrat';
+    color: #3573ba;
+    font-weight: 900;
+    font-size: 17px;
+    text-align: center;
+    margin: 0px;
 }
